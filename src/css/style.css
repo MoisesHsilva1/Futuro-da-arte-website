@@ -21,3 +21,37 @@ html {
 body {
     background-color: black;
 }
+
+header {
+  margin-top: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 9%;
+  display: flex;
+  background-color: transparent;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.Logo {
+  font-size: 5rem;
+  color: white;
+  font-weight: 800;
+  background-color: #65908F;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+nav a{
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #A9A3A3;
+  z-index: 100;
+  margin-left: 4rem;
+  padding: 20px 50px;
+}
