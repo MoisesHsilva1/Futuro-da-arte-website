@@ -10,7 +10,7 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   stroke-width: thin;
-  scrollbar-color: #E84040 transparent;
+  scrollbar-color: black transparent;
 }
 
 html {
@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
 header {
@@ -36,22 +36,79 @@ header {
   z-index: 100;
 }
 
+.home {
+  background-image: url("/public/assets/Background.png");
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+}
+
 .Logo {
   font-size: 5rem;
   color: white;
   font-weight: 800;
-  background-color: #65908F;
+  background-color: #65908f;
   border-radius: 8px;
   padding: 8px 16px;
 }
 
-nav a{
+nav a {
   display: inline-block;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.5rem;
-  color: #A9A3A3;
+  font-size: 1.9rem;
+  color: #a9a3a3;
   z-index: 100;
   margin-left: 4rem;
   padding: 20px 50px;
 }
+
+.title-page {
+  font-size: 2.4rem;
+  color: white;
+  font-weight: 600;
+  text-align: left;
+  margin: 2rem 0;
+}
+
+.general-content {
+  display: flex;
+  flex-direction: column;
+  gap: 11rem;
+  padding: 4rem;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 2rem;
+}
+
+.home-content {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.home-content h1 {
+  font-size: 6rem;
+  width: 110rem;
+}
+
+.home-content h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.home-content p {
+  font-size: 2rem;
+  border: white solid 0.2rem;
+  border-radius: 5px;
+  width: 17rem;
+  padding: 8px 16px;
+}
+
