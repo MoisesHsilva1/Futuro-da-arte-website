@@ -49,9 +49,43 @@ nav a{
   display: inline-block;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   color: #A9A3A3;
   z-index: 100;
   margin-left: 4rem;
   padding: 20px 50px;
+}
+
+section {
+  min-height: 100vh;
+  padding: 5rem 9% 5rem;
+}
+
+.general-content {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 8rem;
+  
+}
+
+.main-phrase{
+  font-size: 6rem;
+  color: white;
+  width: 110rem;
+}
+
+.subtitle{
+  font-size: 2rem;
+  color: white;
+  font-weight: 400;
+}
+
+.descubra{
+  font-size: 2rem;
+  color: white;
+  border: white solid 0.2rem;
+  border-radius: 5px;
+  width: 17rem;
+  padding: 8px 16px;
 }
