@@ -217,3 +217,16 @@ i {
   box-shadow: 0 8px 32px rgba(255, 255, 255, 0.12);
 }
 
+.container {
+      display: flex;
+      justify-content: space-between;
+    }
+ 
+.coluna {
+      flex: 1;
+      padding: 20px;
+      margin: 10px;
+      color: #ffffff;
+      text-align: center;
+      font-size: 2rem;
+    }
