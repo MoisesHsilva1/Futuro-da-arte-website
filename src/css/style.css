@@ -245,6 +245,39 @@ input {
   text-align: right;
 }
 
+@media screen and (max-width: 768px){
+    .home {
+     
+      display: block;
+      
+    }
+    .home-content{
+      margin-top: 10rem;
+      font-size: 1rem;
+      width: 70%;
+    }
+    .home-content h1{
+      font-size: 5rem;
+      width: 40rem;
+      
+    }
+    nav a {
+      display: inline-block;
+     font-size: 1.2rem;
+     justify-content: space-between;
+     align-items: center;
+     color: white;
+     z-index: 100;
+     margin-left: 2rem;
+     padding-bottom: 0.1rem;
+    }
+
+    header {
+      margin-right: 10rem;
+      margin-left: -4rem;
+    }
+  }
+
 @media (max-width: 1200px) {
   .image-content img {
     max-width: 28rem;
