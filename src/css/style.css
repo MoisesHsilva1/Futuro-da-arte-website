@@ -364,6 +364,33 @@ nav a.active::after {
     font-size: 3rem;
   }
 }
+
+@media (max-width: 1000px) {
+  .home-content h1 {
+    font-size: 3.6rem;
+  }
+  .home-content h2 {
+    font-size: 2.2rem;
+  }
+  .information-content h1,
+  .title-page {
+    font-size: 2.6rem;
+  }
+}
+
+@media (max-width: 995px) {
+  .home-content h1 {
+    font-size: 3.2rem;
+  }
+  .home-content h2 {
+    font-size: 2rem;
+  }
+  .information-content h1,
+  .title-page {
+    font-size: 2.2rem;
+  }
+}
+
 @media (max-width: 900px) {
   header {
     padding: 1rem 2rem;
@@ -392,6 +419,7 @@ nav a.active::after {
     max-width: 100%;
   }
 }
+
 @media (max-width: 600px) {
   header {
     flex-direction: column;
@@ -409,11 +437,15 @@ nav a.active::after {
     padding: 1rem 0.5rem;
   }
   .home-content h1 {
-    font-size: 1.4rem;
+    font-size: 4.2rem;
     width: 100%;
   }
   .home-content h2 {
-    font-size: 1rem;
+    font-size: 2.6rem;
+  }
+  .information-content h1,
+  .title-page {
+    font-size: 3.2rem;
   }
   .image-content img {
     max-width: 10rem;
@@ -422,9 +454,6 @@ nav a.active::after {
   .article-card img {
     max-width: 100%;
     height: auto;
-  }
-  .information-content h1 {
-    font-size: 1.2rem;
   }
   .newsletter-form input[type="text"],
   .newsletter-form input[type="email"] {
